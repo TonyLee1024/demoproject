@@ -85,7 +85,6 @@ public class multTest {
 
     /**
      * base64转MultipartFile文件
-     *
      * @param base64
      * @return
      */
@@ -102,7 +101,6 @@ public class multTest {
                     b[i] += 256;
                 }
             }
-
             return new BASE64DecodedMultipartFile(b, baseStrs);
         } catch (IOException e) {
             e.printStackTrace();
